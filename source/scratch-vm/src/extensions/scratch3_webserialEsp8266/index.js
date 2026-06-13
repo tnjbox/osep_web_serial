@@ -787,7 +787,8 @@ class Scratch3EspWebSerial {
     async ws2812_write(args){
         let input_pin = this.d2g(args['PIN']);
         let num = args['NUM'].trim();
-        if ( num ==''){
+        //if(num == ''){ alert( 'Can not null, try * ');}
+        if ( num =='*'){
             num = '0123456789ab';
         }        
         //num = parseInt(num, 10);

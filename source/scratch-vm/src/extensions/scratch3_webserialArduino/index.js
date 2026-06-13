@@ -715,7 +715,8 @@ class Scratch3ArduinoWebSerial {
         let pin = args['PIN'];
         pin = pin.toString().substring(0,2);
         let num = args['NUM'].trim();
-        if ( num ==''){
+        //if(num == ''){ alert( 'Can not null, try * ');}
+        if ( num =='*'){
             num = '123456789abc';
         } 
         let red = args['RED'];
