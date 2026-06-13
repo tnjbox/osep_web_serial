@@ -174,51 +174,8 @@ const translationMap = {
 };
 
 export default [
-    // 👇 請把您的搖桿設定，直接放在 export default [ 的正下方！
-{
-    name: (
-      <FormattedMessage
-        defaultMessage="ESP8266搖桿"
-        description="Name for the ESP8266 extension"
-        id="gui.extension.esp8266.name"
-      />
-    ),
-    extensionId: "ESP8266_joystick",
-    collaborator: "Younger/PSJH",
-    iconURL: ESP8266_joystickIconURL,
-    insetIconURL: ESP8266_joystickInsetIconURL,
-    description: (
-      <FormattedMessage
-        defaultMessage="透過 Web Serial 讓 ESP8266 與 Scratch 直接連線通訊！"
-        description="Description for the ESP8266 extension"
-        id="gui.extension.esp8266.description"
-      />
-    ),
-    featured: true,
-    disabled: false,
-    internetConnectionRequired: false,
-    bluetoothRequired: false,
-  },
-  {
-    name: (
-      <FormattedMessage
-        defaultMessage="Music"
-        description="Name for the 'Music' extension"
-        id="gui.extension.music.name"
-      />
-    ),
-    extensionId: "music",
-    iconURL: musicIconURL,
-    insetIconURL: musicInsetIconURL,
-    description: (
-      <FormattedMessage
-        defaultMessage="Play instruments and drums."
-        description="Description for the 'Music' extension"
-        id="gui.extension.music.description"
-      />
-    ),
-    featured: true,
-  },
+   
+  
   {
     name: (
       <FormattedMessage
