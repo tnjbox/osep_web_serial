@@ -165,4 +165,4 @@ class ESP8266_joystickExtension {
 }
 
 // 註冊擴充功能
-Scratch.extensions.register(new OSEPJoystickExtension());
+module.exports = ESP8266_joystickExtension;
