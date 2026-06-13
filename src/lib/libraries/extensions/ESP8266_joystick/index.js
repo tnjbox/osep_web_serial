@@ -1,4 +1,4 @@
-class OSEPJoystickExtension {
+class ESP8266_joystickExtension {
     constructor(runtime) {
         this.runtime = runtime;
         
@@ -20,8 +20,8 @@ class OSEPJoystickExtension {
      */
     getInfo() {
         return {
-            id: 'osepJoystick',
-            name: 'ESP8266 無線搖桿',
+            id: 'ESP8266_joystick',
+            name: 'ESP8266 搖桿',
             color1: '#0FBD8C', // 積木主色
             color2: '#0DA57A', // 積木邊框色
             blocks: [
