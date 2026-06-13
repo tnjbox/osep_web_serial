@@ -176,16 +176,16 @@ const translationMap = {
 const extensions = [
   {
         name: 'ESP8266搖桿',
-        extensionId: 'ESP8266_joystick',
+        extensionId: 'ESP8266_joystick', // 這裡必須跟前兩關的 ID 完美一致！
         collaborator: 'Younger/PSJH',
-        iconURL: ESP8266_joystickIconURL, // 大圖示
-        insetIconURL: ESP8266_joystickInsetIconURL, // 積木左上角的小圖示
+        iconURL: ESP8266_joystickIconURL, 
+        insetIconURL: ESP8266_joystickInsetIconURL, 
         description: '透過 Web Serial 讓 ESP8266 與 Scratch 直接連線通訊！',
         featured: true,
         disabled: false,
         internetConnectionRequired: false,
         bluetoothRequired: false
-  },
+    }, // 👈 就是這個逗號！用來跟後面的擴充功能隔開
   {
     name: (
       <FormattedMessage
