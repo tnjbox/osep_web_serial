@@ -13,7 +13,7 @@ const builtinExtensions = {
     // but serves as a reference for loading core blocks as extensions.
     coreExample: () => require('../blocks/scratch3_core_example'),
     // These are the non-core built-in extensions.
-    esp8266Joystick: () => require('../extensions/ESP8266_joystick/index.js'), // 👈 這裡一定要有逗號
+    ESP8266Joystick: () => require('../extensions/ESP8266_joystick/index.js'), // 👈 這裡一定要有逗號
     pen: () => require('../extensions/scratch3_pen'),
     pen: () => require('../extensions/scratch3_pen'),
     wedo2: () => require('../extensions/scratch3_wedo2'),
