@@ -1,3 +1,6 @@
+import osepJoystickIconURL from './osepJoystick/osepJoystick-icon.png';
+import osepJoystickInsetIconURL from './osepJoystick/osepJoystick-small.svg';
+
 import React from "react";
 import { FormattedMessage } from "react-intl";
 
@@ -171,6 +174,18 @@ const translationMap = {
 };
 
 const extensions = [
+  {
+        name: 'ESP8266搖桿',
+        extensionId: 'osepJoystick',
+        collaborator: 'Younger/PSJH',
+        iconURL: osepJoystickIconURL, // 大圖示
+        insetIconURL: osepJoystickInsetIconURL, // 積木左上角的小圖示
+        description: '透過 Web Serial 讓 ESP8266 與 Scratch 直接連線通訊！',
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: false,
+        bluetoothRequired: false
+    }
   {
     name: (
       <FormattedMessage
