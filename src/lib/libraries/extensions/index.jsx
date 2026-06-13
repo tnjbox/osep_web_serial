@@ -185,7 +185,7 @@ const extensions = [
         disabled: false,
         internetConnectionRequired: false,
         bluetoothRequired: false
-    }
+  },
   {
     name: (
       <FormattedMessage
