@@ -174,7 +174,32 @@ const translationMap = {
 };
 
 export default [
-   
+   export default [
+  {
+    name: (
+      <FormattedMessage
+        defaultMessage="ESP8266搖桿"
+        description="Name for the ESP8266 extension"
+        id="gui.extension.esp8266.name"
+      />
+    ),
+    extensionId: "ESP8266_joystick",
+    collaborator: "Younger/PSJH",
+    iconURL: ESP8266_joystickIconURL,
+    insetIconURL: ESP8266_joystickInsetIconURL,
+    description: (
+      <FormattedMessage
+        defaultMessage="透過 Web Serial 讓 ESP8266 與 Scratch 直接連線通訊！"
+        description="Description for the ESP8266 extension"
+        id="gui.extension.esp8266.description"
+      />
+    ),
+    featured: true,
+    disabled: false,
+    internetConnectionRequired: false,
+    bluetoothRequired: false,
+  },
+  // 👇 下面接著原本系統的第一個擴充 (例如 Music 或 Text Sentiment)
   
   {
     name: (
