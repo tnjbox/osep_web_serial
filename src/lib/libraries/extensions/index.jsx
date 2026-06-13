@@ -174,7 +174,6 @@ const translationMap = {
 };
 
 export default [
-   export default [
   {
     name: (
       <FormattedMessage
