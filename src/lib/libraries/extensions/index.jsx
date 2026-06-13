@@ -173,19 +173,20 @@ const translationMap = {
   },
 };
 
-const extensions = [
-  {
+export default [
+    // 👇 請把您的搖桿設定，直接放在 export default [ 的正下方！
+    {
         name: 'ESP8266搖桿',
-        extensionId: 'ESP8266_joystick', // 這裡必須跟前兩關的 ID 完美一致！
+        extensionId: 'ESP8266_joystick',
         collaborator: 'Younger/PSJH',
-        iconURL: ESP8266_joystickIconURL, 
-        insetIconURL: ESP8266_joystickInsetIconURL, 
+        iconURL: ESP8266_joystickIconURL,
+        insetIconURL: ESP8266_joystickInsetIconURL,
         description: '透過 Web Serial 讓 ESP8266 與 Scratch 直接連線通訊！',
         featured: true,
         disabled: false,
         internetConnectionRequired: false,
         bluetoothRequired: false
-    }, // 👈 就是這個逗號！用來跟後面的擴充功能隔開
+    }, // 👈 記得這個逗號
   {
     name: (
       <FormattedMessage
