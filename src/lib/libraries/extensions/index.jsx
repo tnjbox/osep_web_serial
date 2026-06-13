@@ -1,5 +1,5 @@
-import osepJoystickIconURL from './ESP8266_joystick/ESP8266_joystick.png';
-import osepJoystickInsetIconURL from './osepJoystick/ESP8266_joystick.svg';
+import ESP8266_joystickIconURL from './ESP8266_joystick/ESP8266_joystick.png';
+import ESP8266_joystickInsetIconURL from './ESP8266_joystick/ESP8266_joystick.svg';
 
 import React from "react";
 import { FormattedMessage } from "react-intl";
