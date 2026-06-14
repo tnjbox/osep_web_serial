@@ -173,7 +173,7 @@ const translationMap = {
   },
 };
 
-export default [
+const extensions = [
   {
     name: (
       <FormattedMessage
